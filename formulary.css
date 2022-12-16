@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.html, body{
+    background: #121214;
+    width:1440px;
+}
+
+.logo{
+    position: fixed;
+    width: 389px;
+    height: 174px;
+    top: 50px;
+    left: 20px;
+}
+
+.background{
+    position: fixed;
+    width: 865px;
+    height: 865px;
+    left: 710px;
+}
+
+.login h1{
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    top: 174px;
+    left: 250px;
+}
+
+.login h2{
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #9E3847;
+    top: 250px;
+    left: 36px;
+}
+
+.login p1{
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    top: 290px;
+    left: 36px;   
+}
+
+.login p2{
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    top: 320px;
+    left: 36px;   
+}
+
+.login label{
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #A8A8A8;
+    top: 410px;
+    left: 36px;
+}
+
+.start{
+    position: absolute;
+    border-bottom: 48px solid orangered;
+    width: 4px;
+    top: 440px;
+    left: 36px;
+}
+
+.login input[type=email]{
+    position: absolute;
+    border: none;
+    border-bottom: 31.6px;
+    padding: 0 20px;
+    width: 750px;
+    height: 48px;
+    top: 440px;
+    left: 39px;
+}
+
+.login input[type=email]:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.login button{
+    position: absolute;
+    border: 0 none;
+    background-color: #8257E5;
+    width: 48px;
+    height: 48px;
+    top: 440px;
+    left: 789px;
+    cursor: pointer;
+}
+
+.login button :hover{
+    background-color: #8257E5;
+    opacity: 50%;
+}
+
+.login button img{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.login h4{
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #8257E5;
+    top: 530px;
+    left: 36px; 
+}
+
+.arrow{
+    position: absolute;
+    top: 526px;
+    left: 180px; 
+}
